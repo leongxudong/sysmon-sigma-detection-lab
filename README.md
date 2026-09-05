@@ -1,16 +1,17 @@
 # Sysmon Sigma Detection Lab
 
-A lightweight portfolio project documenting endpoint monitoring concepts using Sysmon logs and Sigma-style detection logic.
+> **Status: SUPPORTING LAB / REFERENCE**  
+> Introductory endpoint-detection learning material retained to demonstrate Windows telemetry and Sigma-style reasoning. This is not a flagship project, production detection pack, or employer detection content.
 
-## Project Purpose
+A lightweight lab documenting endpoint monitoring concepts using Sysmon logs and Sigma-style detection logic.
 
-The purpose of this repository is to show practical endpoint detection thinking: collecting richer Windows telemetry, understanding useful Sysmon events, writing readable detection logic, and mapping detections to investigation questions.
+## Purpose
+
+The repository demonstrates practical endpoint-detection thinking: collecting richer Windows telemetry, understanding useful Sysmon events, writing readable detection logic, and mapping detections to investigation questions.
 
 ## Scope
 
-This project covers:
-
-- Sysmon basics
+- Sysmon fundamentals
 - Common Sysmon event IDs
 - Sigma-style rule structure
 - Example detection notes
@@ -29,16 +30,14 @@ sysmon-sigma-detection-lab/
     └── README.md
 ```
 
-## Portfolio Value
-
-This project demonstrates:
+## What It Demonstrates
 
 - Endpoint visibility concepts
-- Detection logic documentation
+- Detection-logic documentation
 - Windows telemetry understanding
 - Structured investigation thinking
 - Ability to connect technical logs to security operations
 
 ## Disclaimer
 
-This repository contains learning notes and sanitized examples only. It does not contain production logs, employer data, client data, or confidential telemetry.
+This repository contains learning notes and sanitized lab examples only. It does not contain production logs, employer data, client data, confidential telemetry, internal rules, or production screenshots.
